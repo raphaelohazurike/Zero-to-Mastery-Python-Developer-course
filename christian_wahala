@@ -77,7 +77,25 @@ if len(correct_list) !=0:
 #   a.append(c)
 #   print(a)
 ------------------------------------------------------------------------
+# sandwich_orders=["Chicken Sandwich",
+#                   "Egg Sandwich",
+#                   "Fish Sandwich",
+#                   "Fried Egg Sandwich",
+#                   "Grilled Cheese Sandwich",
+#                   "Grilled Chicken Sandwich"
+# ]
+# finished_sandwiches=[]
+# while sandwich_orders:   
+#   finished_sandwiches= sandwich_orders.pop()   
+#   print("Your {} have been made.\n".format(finished_sandwiches))
 
+# print('your complete sandwich is {}\n'.format(finished_sandwiches))
+
+# # print('your total sandwich is \n')
+
+# a=[1,2,4,45,55]
+# a.insert(2, 10) #how to use insert 
+# print(a)
     
 
 
