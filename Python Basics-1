@@ -17,6 +17,19 @@
 # print (int(0b10)) # returns from bases  to integer. f. integer(base,number)
 # a,b,c = 1,2,3 # a quick way to asign values is by using commas. 1,2,3=a,b,c
 
+#SYNTAX
+.Title(): recognizes everything as a title, ada,Ada,ADA aDa would all return as Ada, is string is more than one word. It only capitalizes the first word
+
+name='chisom'
+last='ohazurike'
+morn_text='Hello {} {}. welcome'
+print((morn_text).format(name.title(),last.title()))
+
+.lower(): always convert inputs to lower before working with it. Users might capitalize here and there
+.strip(): takes away spaces in strings (rstrip and lstrip helps takes out the space from the left and right side, if youre sure where it is)
+
+\t : tab space
+\n: next new line
 
 
 
