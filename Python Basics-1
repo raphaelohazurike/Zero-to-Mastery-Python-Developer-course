@@ -35,3 +35,19 @@ print((morn_text).format(name.title(),last.title()))
 
 #constants  #use this section to state fixed constants that no one should change
 
+
+
+# sorted(x): sorts list without modyfyinf the original list 
+#----------------------
+#   METHODS
+#----------------------
+# .insert(x,y): helps inserts element y in position x
+# .extend([x.y]): adds elements x, and y into what ever list calling the extends
+# .pop() : pops out the last element, if an index is called, it removes the index instead
+# .remove :takes out what ever value is asked to be removed. remove(4) would remove element 4 if available
+# .clear(): removes everything in the list
+# .count(x): counts the number of time apple appear in a list
+# .index(x) : tells what position x is at on a list 
+# .sort() :arranges list in order from small to bigg 
+# 
+
