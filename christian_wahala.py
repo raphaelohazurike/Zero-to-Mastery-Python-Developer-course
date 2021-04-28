@@ -48,28 +48,28 @@
 
 # #-------------------------------------------- 
 # #christian Pizza
-options=['beef','cheese']
-toppings=[]
-order_done=0
-correct_list=[]
-incorrect_list=[]
-x=0
-while 1==1: #customer still ordering
-  choices=input(" enter your topping choice\n then hit enter\n \t")
-  toppings.append(choices)#review append and tuple lists
-  if choices=='order':
-    break
-toppings.pop()
-while x<len(toppings):
-  if toppings[x] in options:
-    correct_list.append(toppings[x])
-  else:
-    incorrect_list.append(toppings[x])
-  x=x+1
-if len(incorrect_list)!=0 and len(correct_list)==0:
-  print('{} = invalid entries, order again'.format(incorrect_list)) 
-if len(correct_list) !=0:  
-  print('this is your correct toppings = {} \n your order is confirmed'.format(correct_list))
+# options=['beef','cheese']
+# toppings=[]
+# order_done=0
+# correct_list=[]
+# incorrect_list=[]
+# x=0
+# while 1==1: #customer still ordering
+#   choices=input(" enter your topping choice\n then hit enter\n \t")
+#   toppings.append(choices)#review append and tuple lists
+#   if choices=='order':
+#     break
+# toppings.pop()
+# while x<len(toppings):
+#   if toppings[x] in options:
+#     correct_list.append(toppings[x])
+#   else:
+#     incorrect_list.append(toppings[x])
+#   x=x+1
+# if len(incorrect_list)!=0 and len(correct_list)==0:
+#   print('{} = invalid entries, order again'.format(incorrect_list)) 
+# if len(correct_list) !=0:  
+#   print('this is your correct toppings = {} \n your order is confirmed'.format(correct_list))
    
 # a=[]
 # while 1==1:
