@@ -50,4 +50,12 @@ print((morn_text).format(name.title(),last.title()))
 # .index(x) : tells what position x is at on a list 
 # .sort() :arranges list in order from small to bigg 
 # 
+#----------------------------
+# DICTIONARY vs LISTs
+#---------------------------
+# LISTS are easily ordered and sorted, but dictionaries have Key: and Values inside curly brackets, dicts are not ordered in memory like in lists where 1 and 2 is known
+#dict# a={1:[2,4,5,6],'c':True, 'a'='hello' }
+#List# 
+#note thst every entery could be a list or string or whasteber
+#thewy are called by side by side, eg to call 5 we print  a[0][1][2]
 
