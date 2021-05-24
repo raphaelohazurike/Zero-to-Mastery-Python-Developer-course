@@ -53,9 +53,28 @@ print((morn_text).format(name.title(),last.title()))
 #----------------------------
 # DICTIONARY vs LISTs
 #---------------------------
-# LISTS are easily ordered and sorted, but dictionaries have Key: and Values inside curly brackets, dicts are not ordered in memory like in lists where 1 and 2 is known
+# LISTS are easily ordered and sorted, but dictionaries are not 
+dict have Key: and Values inside curly brackets, dicts are not ordered in memory like in lists where 1 and 2 is known
 #dict# a={1:[2,4,5,6],'c':True, 'a'='hello' }
 #List# 
 #note thst every entery could be a list or string or whasteber
 #thewy are called by side by side, eg to call 5 we print  a[0][1][2]
+#dictionaries hold more information, dont work for ordinal data set, they are categorical.
+# dictionary keys need to be immutable, cannot change, numbers, booleans, string can be keys in dicts but not list cause lists can change(not immutable)
+# Key Error means no key exists. 
+to Grab from dict, use .key,.value, and .item: to grab keys 
+NOTES
+# WE DONT WANT ERRORS in python so if were looking to see if a key exists. we use .get[] instead of calling that get 
+or you can just say print (key in dict): eg. print (1 in a) or print (2 in a) would return true and false, to check for values run
+# CALL AND IF MISSING USE THIS in example  print (a.get(2:'take me')): this would check for key 2, if it doesnt exists use 'take me'
+# a.keys(): checks 
+#---------------
+# TUPLE
+#---------------
+#	Lists that are made immutable
+#	A=(1,2,3,5)
+
+#----------------------
+# ERRORS
+# ----------------------
 
